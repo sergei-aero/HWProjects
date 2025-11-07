@@ -18,3 +18,14 @@ def mask_account_card(account_card_info: str) -> str:
         masked_number = get_mask_card_number(number)
 
     return f"{card_type} {masked_number}"
+
+
+def get_date(date_string: str) -> str:
+    """
+    Преобразует дату из формата ISO в формат ДД.ММ.ГГГГ
+    """
+    # Разделяем дату и время по символу 'T'
+    date_part = date_string.split('T')[0]
+
+    year, month, day = date_part.split('-')
+    return f"{day}.{month}.{year}"
