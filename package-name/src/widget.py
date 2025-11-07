@@ -1,5 +1,6 @@
 from masks import get_mask_card_number, get_mask_account
 
+
 def mask_account_card(account_card_info: str) -> str:
     """
     Маскирует номер карты или счета в переданной строке
@@ -25,7 +26,7 @@ def get_date(date_string: str) -> str:
     Преобразует дату из формата ISO в формат ДД.ММ.ГГГГ
     """
     # Разделяем дату и время по символу 'T'
-    date_part = date_string.split('T')[0]
+    date_part = date_string.split("T")[0]
 
-    year, month, day = date_part.split('-')
+    year, month, day = date_part.split("-")
     return f"{day}.{month}.{year}"
