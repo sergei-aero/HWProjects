@@ -13,10 +13,6 @@ def mask_account_card(account_card_info: str) -> str:
     card_type = " ".join(parts[:-1])
     number = parts[-1]
 
-
-
-
-
     if card_type.lower().startswith("счет") or len(number) > 16:
         masked_number = get_mask_account(number)
     else:
