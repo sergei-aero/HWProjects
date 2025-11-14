@@ -2,9 +2,11 @@
 ## New functions
 **filter_by_state**
 Фильтрует список словарей по значению ключа 'state'.
+
 Args:
 - dict_list (list[dict]): Список словарей для фильтрации
 - state (str): Значение для фильтрации (по умолчанию 'EXECUTED')
+
 Returns:
 - list[dict]: Новый список словарей, где state соответствует указанному значению
 Examples:
@@ -21,9 +23,11 @@ Examples:
 ```
 **sort_by_date**
 Сортирует список словарей по дате.
+
 Args:
 - transactions (list[dict]): Список словарей с транзакциями
 - descending (bool): Порядок сортировки: True - по убыванию, False - по возрастанию
+пше 
 Returns:
 - list[dict]: Новый отсортированный список
 Examples:
