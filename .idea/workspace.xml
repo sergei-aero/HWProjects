@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e7f2b19-2dcf-4d17-bdf2-8498b81c2194" name="Changes" comment="Tests modules created">
-      <change afterPath="$PROJECT_DIR$/tests/test_processing.py" afterDir="false" />
+    <list default="true" id="0e7f2b19-2dcf-4d17-bdf2-8498b81c2194" name="Changes" comment="Tests masks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
     </list>
@@ -45,6 +44,16 @@
   "keyToString": {
     "Python tests.Python tests for conftest.test_module_import.executor": "Run",
     "Python tests.Python tests for conftest.test_pytest_import.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskAccount.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskAccount.test_correct_account_masking.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskAccount.test_invalid_format_accounts.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_card_numbers_as_integers.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_card_numbers_with_spaces.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_correct_card_masking.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_empty_card_inputs.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_invalid_format_cards.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_invalid_length_cards.executor": "Run",
     "Python.main.executor": "Run",
     "Python.masks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -53,8 +62,8 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for conftest.test_module_import">
-    <configuration name="Python tests for conftest.test_module_import" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_masks.TestGetMaskAccount.test_invalid_format_accounts">
+    <configuration name="Python tests for test_masks.TestGetMaskAccount" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,11 +74,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;conftest.test_module_import&quot;" />
+      <option name="_new_target" value="&quot;test_masks.TestGetMaskAccount&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for conftest.test_pytest_import" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_masks.TestGetMaskAccount.test_correct_account_masking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,14 +89,62 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;conftest.test_pytest_import&quot;" />
+      <option name="_new_target" value="&quot;test_masks.TestGetMaskAccount.test_correct_account_masking&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_masks.TestGetMaskAccount.test_invalid_format_accounts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_masks.TestGetMaskAccount.test_invalid_format_accounts&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_masks.TestGetMaskCardNumber.test_empty_card_inputs" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_masks.TestGetMaskCardNumber.test_empty_card_inputs&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_masks.TestGetMaskCardNumber.test_invalid_format_cards" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_masks.TestGetMaskCardNumber.test_invalid_format_cards&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for conftest.test_module_import" />
-        <item itemvalue="Python tests.Python tests for conftest.test_pytest_import" />
+        <item itemvalue="Python tests.Python tests for test_masks.TestGetMaskAccount.test_invalid_format_accounts" />
+        <item itemvalue="Python tests.Python tests for test_masks.TestGetMaskAccount.test_correct_account_masking" />
+        <item itemvalue="Python tests.Python tests for test_masks.TestGetMaskAccount" />
+        <item itemvalue="Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_empty_card_inputs" />
+        <item itemvalue="Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_invalid_format_cards" />
       </list>
     </recent_temporary>
   </component>
@@ -115,11 +172,20 @@
       <option name="project" value="LOCAL" />
       <updated>1763731877116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tests masks">
+      <option name="closed" value="true" />
+      <created>1763734341589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763734341589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tests modules created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests modules created" />
+    <MESSAGE value="Tests masks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests masks" />
   </component>
 </project>
