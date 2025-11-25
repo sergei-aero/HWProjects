@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e7f2b19-2dcf-4d17-bdf2-8498b81c2194" name="Changes" comment="Tests processing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0e7f2b19-2dcf-4d17-bdf2-8498b81c2194" name="Changes" comment="Tests widget" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +58,12 @@
     "Python tests.Python tests for test_processing.TestIntegration.test_filter_and_sort_ascending.executor": "Run",
     "Python tests.Python tests for test_processing.TestIntegration.test_filter_and_sort_combination.executor": "Run",
     "Python tests.Python tests for test_processing.TestSortByDate.executor": "Run",
+    "Python tests.Python tests for test_widget.TestGetDate.test_boundary_dates.executor": "Run",
+    "Python tests.Python tests for test_widget.TestGetDate.test_date_conversion.executor": "Run",
+    "Python tests.Python tests for test_widget.TestGetDate.test_date_without_time.executor": "Run",
+    "Python tests.Python tests for test_widget.TestGetDate.test_minimum_date.executor": "Run",
+    "Python tests.Python tests for test_widget.TestMaskAccountCard.test_invalid_input.executor": "Run",
+    "Python tests.Python tests for test_widget.TestMaskAccountCard.test_mask_account_number.executor": "Run",
     "Python.main.executor": "Run",
     "Python.masks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -68,8 +72,8 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_processing.TestIntegration.test_filter_and_sort_ascending">
-    <configuration name="Python tests for test_processing.TestFilterByState.test_no_matching_state" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_widget.TestGetDate.test_boundary_dates">
+    <configuration name="Python tests for test_widget.TestGetDate.test_boundary_dates" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,11 +84,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_processing.TestFilterByState.test_no_matching_state&quot;" />
+      <option name="_new_target" value="&quot;test_widget.TestGetDate.test_boundary_dates&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_processing.TestFilterByState.test_original_list_unmodified" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_widget.TestGetDate.test_date_conversion" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,11 +99,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_processing.TestFilterByState.test_original_list_unmodified&quot;" />
+      <option name="_new_target" value="&quot;test_widget.TestGetDate.test_date_conversion&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_processing.TestIntegration.test_filter_and_sort_ascending" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_widget.TestGetDate.test_date_without_time" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,11 +114,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_processing.TestIntegration.test_filter_and_sort_ascending&quot;" />
+      <option name="_new_target" value="&quot;test_widget.TestGetDate.test_date_without_time&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_processing.TestIntegration.test_filter_and_sort_combination" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_widget.TestGetDate.test_minimum_date" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,11 +129,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_processing.TestIntegration.test_filter_and_sort_combination&quot;" />
+      <option name="_new_target" value="&quot;test_widget.TestGetDate.test_minimum_date&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_processing.TestSortByDate" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_widget.TestMaskAccountCard.test_invalid_input" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,17 +144,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_processing.TestSortByDate&quot;" />
+      <option name="_new_target" value="&quot;test_widget.TestMaskAccountCard.test_invalid_input&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_processing.TestIntegration.test_filter_and_sort_ascending" />
-        <item itemvalue="Python tests.Python tests for test_processing.TestIntegration.test_filter_and_sort_combination" />
-        <item itemvalue="Python tests.Python tests for test_processing.TestSortByDate" />
-        <item itemvalue="Python tests.Python tests for test_processing.TestFilterByState.test_original_list_unmodified" />
-        <item itemvalue="Python tests.Python tests for test_processing.TestFilterByState.test_no_matching_state" />
+        <item itemvalue="Python tests.Python tests for test_widget.TestGetDate.test_boundary_dates" />
+        <item itemvalue="Python tests.Python tests for test_widget.TestGetDate.test_date_without_time" />
+        <item itemvalue="Python tests.Python tests for test_widget.TestGetDate.test_minimum_date" />
+        <item itemvalue="Python tests.Python tests for test_widget.TestGetDate.test_date_conversion" />
+        <item itemvalue="Python tests.Python tests for test_widget.TestMaskAccountCard.test_invalid_input" />
       </list>
     </recent_temporary>
   </component>
@@ -194,13 +198,22 @@
       <option name="project" value="LOCAL" />
       <updated>1763735305297</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tests widget">
+      <option name="closed" value="true" />
+      <created>1763736441709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763736441709</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tests modules created" />
     <MESSAGE value="Tests masks" />
     <MESSAGE value="Tests processing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests processing" />
+    <MESSAGE value="Tests widget" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests widget" />
   </component>
 </project>
