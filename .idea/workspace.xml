@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e7f2b19-2dcf-4d17-bdf2-8498b81c2194" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="0e7f2b19-2dcf-4d17-bdf2-8498b81c2194" name="Changes" comment="Tests widget" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,23 +20,14 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature_hw_10.1" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sergei-aero"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:sergei-aero/HWProjects.git",
-    "accountId": "a22485f3-f985-4ead-8f59-3076ccd11eb0"
-  }
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -51,14 +39,125 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for conftest.test_module_import.executor": "Run",
+    "Python tests.Python tests for conftest.test_pytest_import.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskAccount.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskAccount.test_correct_account_masking.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskAccount.test_invalid_format_accounts.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_card_numbers_as_integers.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_card_numbers_with_spaces.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_correct_card_masking.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_empty_card_inputs.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_invalid_format_cards.executor": "Run",
+    "Python tests.Python tests for test_masks.TestGetMaskCardNumber.test_invalid_length_cards.executor": "Run",
+    "Python tests.Python tests for test_processing.TestFilterByState.test_default_state_parameter.executor": "Run",
+    "Python tests.Python tests for test_processing.TestFilterByState.test_missing_state_key.executor": "Run",
+    "Python tests.Python tests for test_processing.TestFilterByState.test_no_matching_state.executor": "Run",
+    "Python tests.Python tests for test_processing.TestFilterByState.test_original_list_unmodified.executor": "Run",
+    "Python tests.Python tests for test_processing.TestIntegration.test_filter_and_sort_ascending.executor": "Run",
+    "Python tests.Python tests for test_processing.TestIntegration.test_filter_and_sort_combination.executor": "Run",
+    "Python tests.Python tests for test_processing.TestSortByDate.executor": "Run",
+    "Python tests.Python tests for test_widget.TestGetDate.test_boundary_dates.executor": "Run",
+    "Python tests.Python tests for test_widget.TestGetDate.test_date_conversion.executor": "Run",
+    "Python tests.Python tests for test_widget.TestGetDate.test_date_without_time.executor": "Run",
+    "Python tests.Python tests for test_widget.TestGetDate.test_minimum_date.executor": "Run",
+    "Python tests.Python tests for test_widget.TestMaskAccountCard.test_invalid_input.executor": "Run",
+    "Python tests.Python tests for test_widget.TestMaskAccountCard.test_mask_account_number.executor": "Run",
     "Python.main.executor": "Run",
     "Python.masks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/home__work__10.1",
+    "git-widget-placeholder": "feature/hw__10.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_widget.TestGetDate.test_boundary_dates">
+    <configuration name="Python tests for test_widget.TestGetDate.test_boundary_dates" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_widget.TestGetDate.test_boundary_dates&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_widget.TestGetDate.test_date_conversion" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_widget.TestGetDate.test_date_conversion&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_widget.TestGetDate.test_date_without_time" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_widget.TestGetDate.test_date_without_time&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_widget.TestGetDate.test_minimum_date" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_widget.TestGetDate.test_minimum_date&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_widget.TestMaskAccountCard.test_invalid_input" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_widget.TestMaskAccountCard.test_invalid_input&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_widget.TestGetDate.test_boundary_dates" />
+        <item itemvalue="Python tests.Python tests for test_widget.TestGetDate.test_date_without_time" />
+        <item itemvalue="Python tests.Python tests for test_widget.TestGetDate.test_minimum_date" />
+        <item itemvalue="Python tests.Python tests for test_widget.TestGetDate.test_date_conversion" />
+        <item itemvalue="Python tests.Python tests for test_widget.TestMaskAccountCard.test_invalid_input" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,6 +174,46 @@
       <option name="presentableId" value="Default" />
       <updated>1761636271951</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tests modules created">
+      <option name="closed" value="true" />
+      <created>1763731877116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763731877116</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Tests masks">
+      <option name="closed" value="true" />
+      <created>1763734341589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763734341589</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Tests processing">
+      <option name="closed" value="true" />
+      <created>1763735305297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763735305297</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tests widget">
+      <option name="closed" value="true" />
+      <created>1763736441709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763736441709</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tests modules created" />
+    <MESSAGE value="Tests masks" />
+    <MESSAGE value="Tests processing" />
+    <MESSAGE value="Tests widget" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests widget" />
   </component>
 </project>
